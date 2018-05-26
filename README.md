@@ -1,5 +1,8 @@
 <h1>REACT CATALOG</h1>
 
+<img src="https://i.imgur.com/kp0fNSa.png" width="400px" style="display:inline-block;"/>
+<img src="https://i.imgur.com/k6kLBGa.png" width="400px"style="display:inline-block;"/>
+
 <p>This is a small project trying out some technologies.<p>
 
 <p>It consists on a phone catalog in which you can navigate to the file of each phone.</p>
@@ -27,6 +30,5 @@
 <p> To run tests run the following command from the root directory:</p>
 <p><strong> npm run test </strong></p>
 
-<img src="https://i.imgur.com/kp0fNSa.png" width="400px"/>
-<img src="https://i.imgur.com/kp0fNSa.png" width="400px"/>
+
 <h4> Thanks!</h4>
