@@ -27,5 +27,6 @@
 <p> To run tests run the following command from the root directory:</p>
 <p><strong> npm run test </strong></p>
 
+<img src="https://i.imgur.com/kp0fNSa.png" width="400px"/>
 
 <h4> Thanks!</h4>
