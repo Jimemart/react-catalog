@@ -14,14 +14,16 @@
   <li>Node</li>
   <li>Express</li>
 </ul>
-
+---------------------------------------------------------------------------------
 <p> To install the project run the following command from the root directory:</p>
 <p><strong> npm run install:all </strong></p>
 
+---------------------------------------------------------------------------------
 <p> To start the project run in two different consoles the following commands:</p>
 <p><strong> npm run start:server </strong></p>
 <p><strong> npm run start:client </strong></p>
 
+---------------------------------------------------------------------------------
 <p> To run tests run the following command from the root directory:</p>
 <p><strong> npm run test </strong></p>
 
