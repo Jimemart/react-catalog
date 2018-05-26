@@ -1,0 +1,157 @@
+.product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 500px;
+}
+
+.product .image {
+  background: white;
+  /*height: 100%;*/
+  width: 55%;
+}
+
+.product .full {
+  margin-top: -10px;
+  width: 80%;
+  height: 80%
+}
+
+.product .img-holder {
+  display: flex;
+  justify-content: center;
+}
+.product img {
+  cursor: pointer;
+}
+.product .description {
+    color: #4f4f4f;
+  width: 45%;
+  height: 95%;
+  margin-top: 1.5%;
+  background: #dbdde0;
+  box-shadow: inset 8px -1px 20px -11px black;
+}
+.product .img-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  line-height: 25px;
+}
+
+.product .img-list > div {
+  width: 100px;
+}
+.product .img-list > div > img {
+  width: 100%;
+}
+
+.product .arrows {
+  width: 107%;
+  height: 40px;
+  position: relative;
+  top: calc(50% - 40px);
+  left: -15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product .arrows > div{
+  height: 40px;
+  width: 40px;
+  background: purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}
+
+.product h1 {
+  font-family: 'Muli', sans-serif;
+  font-weight: 400;
+}
+
+.product .title {
+  padding: 20px 30px 0;
+}
+.product .title > h1 {
+  margin-bottom: 5px;
+}
+.product .title > p {
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.product .specifications {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.product p {
+  margin-bottom: 0;
+}
+
+.product h2 {
+  margin: 0;
+  color: purple;
+  font-weight: 800;
+}
+
+.product ul {
+  list-style-type: none;
+}
+.product .colors {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.product .color {
+  height: 20px;
+  width: 20px;
+  background: black;
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+
+.product .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.product .button > div >button {
+  background: purple;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .product .image, .product .product, .product .description {
+    width: 100%;
+    box-shadow: none;
+  }
+  .product .full {
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .product .img-list {
+    display: none;
+  }
+  .product .button {
+    margin-top: -50px;
+  }
+}

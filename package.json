@@ -1,0 +1,22 @@
+{
+  "name": "react-catalog",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:client": "cd client && npm run start",
+    "start:server": "cd server && npm run start",
+    "install:client": "cd client && npm i",
+    "install:server": "cd server && npm i",
+    "install:all": "npm run install:client && npm run install:server",
+    "test": "cd client && npm run test"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  }
+}
