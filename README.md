@@ -1,7 +1,9 @@
 <h1>REACT CATALOG</h1>
+<div>
+  <img src="https://i.imgur.com/kp0fNSa.png" width="400px" style="display:inline-block;"/>
+  <img src="https://i.imgur.com/k6kLBGa.png" width="400px"style="display:inline-block;"/>
+</div>
 
-<img src="https://i.imgur.com/kp0fNSa.png" width="400px" style="display:inline-block;"/>
-<img src="https://i.imgur.com/k6kLBGa.png" width="400px"style="display:inline-block;"/>
 
 <p>This is a small project trying out some technologies.<p>
 
