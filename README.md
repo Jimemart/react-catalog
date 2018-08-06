@@ -1,10 +1,10 @@
 <h1>REACT CATALOG</h1>
 <div>
   <img src="https://i.imgur.com/kp0fNSa.png" width="400px" style="display:inline-block;"/>
-  <img src="https://i.imgur.com/oHbFs2u.png" width="400px"style="display:inline-block;"/>
+  <img src="https://i.imgur.com/k6kLBGa.png" width="400px"style="display:inline-block;"/>
 </div>
 
-<p>This project consists on a game market / news / forum webapp. The design of the site was based on: <a href="https://www.behance.net/gallery/40985623/Game-Scope"> Game Scope</a></p>
+<p>It consists on a phone catalog in which you can navigate to the file of each phone.</p>
 
 <h4>It features: </h4>
 <ul>
