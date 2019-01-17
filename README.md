@@ -17,13 +17,12 @@
   <li>Express</li>
 </ul>
 ---------------------------------------------------------------------------------
-<p> To install the project run the following command from the root directory:</p>
-<p><strong> npm run install:all </strong></p>
+<p> You must install all the dependencies of both the client and server </p>
+<p><strong> yarn install</strong></p>
 
 ---------------------------------------------------------------------------------
-<p> To start the project run in two different consoles the following commands:</p>
-<p><strong> npm run start:server </strong></p>
-<p><strong> npm run start:client </strong></p>
+<p> To start the project run in two different consoles the following command:</p>
+<p><strong> yarn start </strong></p>
 
 ---------------------------------------------------------------------------------
 <p> This is work on progress </p>
